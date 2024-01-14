@@ -23,6 +23,7 @@ font-weight: 700;
 header{
   background-color: antiquewhite;
   padding: 50px 240px;
+  border-radius: 20px;
 }
 nav {
   display: flex;
@@ -162,6 +163,21 @@ main{
 }
 .sponsor-img-container img{
   width: 165px;
+}
+footer{
+  width: auto;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #FFF4E7;
+  margin: 100px 30px;
+  padding: 50px;
+}
+footer, .text-light-gray{
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+text-align: center;
+
 }
 
 /* responsiv media query */
